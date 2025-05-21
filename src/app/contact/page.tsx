@@ -41,8 +41,8 @@ export default function ContactPage() {
 									Contact Us
 								</h1>
 								<p className='max-w-[700px] text-gray-600 md:text-xl/relaxed'>
-									Have questions or feedback? We'd love to
-									hear from you.
+									Have questions or feedback? We&apos;d love
+									to hear from you.
 								</p>
 							</div>
 						</div>
@@ -57,8 +57,8 @@ export default function ContactPage() {
 										Get in Touch
 									</h2>
 									<p className='text-gray-600 md:text-lg/relaxed'>
-										Fill out the form and we'll get back to
-										you as soon as possible.
+										Fill out the form and we&apos;ll get
+										back to you as soon as possible.
 									</p>
 								</div>
 								<div className='space-y-4 pt-4'>
@@ -107,8 +107,8 @@ export default function ContactPage() {
 											</h3>
 											<p className='text-gray-600'>
 												Thank you for contacting us.
-												We'll get back to you as soon as
-												possible.
+												We&apos;ll get back to you as
+												soon as possible.
 											</p>
 										</div>
 									</div>

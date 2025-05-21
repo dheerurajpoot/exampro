@@ -139,18 +139,18 @@ export default function HomePage() {
 									Testimonials
 								</div>
 								<blockquote className='border-l-4 border-purple-600 pl-4 italic text-gray-600'>
-									"This assessment platform helped me prepare
-									for my certification exam. The interface is
-									intuitive and the questions are
-									well-designed."
+									&quot;This assessment platform helped me
+									prepare for my certification exam. The
+									interface is intuitive and the questions are
+									well-designed.&quot;
 								</blockquote>
 								<p className='font-semibold'>
 									- Sarah Johnson, Software Developer
 								</p>
 								<blockquote className='border-l-4 border-purple-600 pl-4 italic text-gray-600'>
-									"I love how easy it is to navigate through
-									the questions. The instant feedback feature
-									is incredibly helpful."
+									&quot;I love how easy it is to navigate
+									through the questions. The instant feedback
+									feature is incredibly helpful.&quot;
 								</blockquote>
 								<p className='font-semibold'>
 									- Michael Chen, Data Analyst
