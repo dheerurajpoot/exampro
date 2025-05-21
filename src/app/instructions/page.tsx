@@ -8,7 +8,6 @@ import { Checkbox } from "@/components/ui/checkbox";
 import {
 	AlertTriangle,
 	Camera,
-	FileText,
 	Mic,
 	MonitorSmartphone,
 	ScreenShare,

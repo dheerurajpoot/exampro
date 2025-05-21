@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, CheckCircle, Clock, FileText, Users } from "lucide-react";
+import { ArrowRight, CheckCircle, Clock, Users } from "lucide-react";
 
 export default function HomePage() {
 	return (
