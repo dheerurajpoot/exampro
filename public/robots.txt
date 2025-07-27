@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://exampro.com/sitemap.xml
+
+# Allow all pages to be crawled
+Allow: /about
+Allow: /contact
+Allow: /exam
+Allow: /instructions
+Allow: /privacy
+Allow: /terms
+Allow: /thank-you
+
+# Disallow admin and private pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Disallow sensitive paths
+Disallow: /_next/
+Disallow: /node_modules/
+Disallow: /public/
+Disallow: /src/

@@ -10,8 +10,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
 	title: "ExamPro - Assessment Platform",
 	description:
-		"A beautiful assessment platform for taking exams and assessments",
-	generator: "v0.dev",
+		"A beautiful assessment platform for taking exams and assessments with AI and Machine Learning ",
+	keywords:
+		"exam, online exam, free exam, age exam, EMI exam, BMI exam, GPA exam, percentage exam, AdSense revenue exam",
+	authors: [{ name: "ExamPro" }],
+	robots: "index, follow",
 };
 
 export default function RootLayout({
@@ -20,8 +23,34 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang='en'>
-			<body className={inter.className}>
+		<html lang='en' suppressHydrationWarning>
+			<head suppressHydrationWarning>
+				<meta
+					name='google-site-verification'
+					content='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+				/>
+				{/* Google Analytics Script */}
+				<script
+					async
+					src='https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX'
+				/>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+							window.dataLayer = window.dataLayer || [];
+							function gtag(){dataLayer.push(arguments);}
+							gtag('js', new Date());
+							gtag('config', 'G-XXXXXXXXXX');
+						`,
+					}}
+				/>
+				<script
+					async
+					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXX'
+					crossOrigin='anonymous'
+				/>
+			</head>
+			<body className={inter.className} suppressHydrationWarning>
 				<ThemeProvider
 					attribute='class'
 					defaultTheme='light'
